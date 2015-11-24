@@ -17,6 +17,8 @@ apk update && apk add\
 
 python /scripts/get_pip.py
 
+git clone --branch master --single-branch  https://github.com/RuudBurger/CouchPotatoServer.git /CouchPotatoServer
+
 pip install pyOpenSSL lxml
 
 apk del\

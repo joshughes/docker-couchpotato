@@ -5,7 +5,6 @@ MAINTAINER Joe Hughes
 COPY scripts/ /scripts/
 
 RUN scripts/install_deps.sh
-RUN git clone https://github.com/RuudBurger/CouchPotatoServer.git /CouchPotatoServer
 
 VOLUME /config
 VOLUME /data
